@@ -15,5 +15,11 @@ namespace TechJobs.ViewModels
 
         // View title
         public string Title { get; set; } = "";
+
+
+        public BaseViewModel()
+        {
+            Column = JobFieldType.All;
+        }
     }
 }

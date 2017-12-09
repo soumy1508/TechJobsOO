@@ -31,7 +31,7 @@ namespace TechJobs.ViewModels
             // Populate the list of all columns
 
             Columns = new List<JobFieldType>();
-            Column = JobFieldType.All;
+            
             foreach (JobFieldType enumVal in Enum.GetValues(typeof(JobFieldType)))
             {
                 Columns.Add(enumVal);
